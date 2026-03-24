@@ -451,19 +451,19 @@ footer {
 }
 
 .terminal-loader {
-  border: 0.1em solid #333;
-  background-color: #1a1a1a;
-  color: #0f0;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 12px;
-  padding: 0.5em 2em;
-  width: 17em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  margin: -4px 75px -6px;
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
+ border: 0.1em solid #333;
+    background-color: #1a1a1a;
+    color: #0f0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    padding: 0.5em 0em;
+    width: 19em;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 82%);
+    border-radius: 4px;
+    margin: -4px 75px -6px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .terminal-header {
@@ -689,7 +689,7 @@ MEDIA QUERY 2 — Phone (≤600px)
 
   .gif {
     position: relative;
-    margin: 0 70px -400px;
+    margin: 0 100px -400px;
     height: 160px;
     mix-blend-mode: multiply;
     width: 180px;
@@ -768,7 +768,7 @@ MEDIA QUERY 2 — Phone (≤600px)
   }
 
   .controls {
-    margin-left: 135px;
+    margin-left: 145px;
     margin-top: -35px;
   }
 
@@ -781,15 +781,20 @@ MEDIA QUERY 2 — Phone (≤600px)
   }
 
   .developerinfo {
-    margin: 20px 0 0;
+    margin: 45px 0 -20px;
+    color: dimgrey;
+        font-weight: normal;
   }
 
   .subm {
-    margin: 20px 0 -25px
+            margin: 22px 0 -35px;
+        text-align: center;
+    color: dimgrey;
+        font-weight: normal;
   }
 
   .sentence {
-    opacity: 1;
+    font-weight:normal;
     margin: -10px 0 -5px;
     font-family: sans-serif;
     color: slategrey;
