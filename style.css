@@ -454,9 +454,9 @@ footer {
  border: 0.1em solid #333;
     background-color: #1a1a1a;
     color: #0f0;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New",   Courier, monospace;
     font-size: 11px;
-    padding: 0.5em 0em;
+    padding: 0.1em 0em;
     width: 24em;
     box-shadow: 0 4px 8px rgb(0 0 0 / 80%);
     border-radius: 4px;
